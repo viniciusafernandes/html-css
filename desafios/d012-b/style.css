@@ -41,7 +41,7 @@ header > h2 {
 }
 
 header > p {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 header a, footer a {
@@ -51,6 +51,11 @@ header a, footer a {
 }
 
 header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+#ad1 {
+    font-family: var(--fonte1);
     text-decoration: underline;
 }
 
